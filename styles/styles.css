@@ -1,0 +1,32 @@
+div {
+  color: white;
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  color: white;
+}
+
+.bottom-buffer {
+  margin-bottom: 50px;
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}
+
+.text-light {
+  color: rgb(205,229,210) !important;
+}
+
+.bg-dark {
+  background-color: rgb(128,121,133) !important;
+}
