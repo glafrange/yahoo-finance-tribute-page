@@ -30,3 +30,7 @@ a {
 .bg-dark {
   background-color: rgb(128,121,133) !important;
 }
+
+.big-text {
+  font-size: 50px !important;
+}
