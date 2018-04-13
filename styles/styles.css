@@ -34,3 +34,8 @@ a {
 .big-text {
   font-size: 50px !important;
 }
+
+img {
+  width: 100%;
+  max-height: 350px;
+}
