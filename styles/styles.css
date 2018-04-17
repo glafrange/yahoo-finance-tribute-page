@@ -39,3 +39,17 @@ img {
   width: 100%;
   max-height: 350px;
 }
+
+.tstfade {
+  animation-name: tst;
+  animation-duration: 4s;
+}
+
+@keyframes tst {
+  from{color: black;}
+  to{color: white;}
+}
+
+.bg-black {
+  background-color: #212529;
+}

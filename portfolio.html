@@ -3,31 +3,31 @@
   <head>
     <script src="styles/js/jquery-3.3.1.min.js"></script>
     <script src="styles/js/bootstrap.bundle.js"></script>
+    <script src="styles/js/portfolio.js"></script>
     <link href="styles/css/bootstrap.css" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
   </head>
-  <body class="bg bg-dark">
+  <body class="bg bg-light">
     <div class="container">
-      <div class="nav navbar">
-        <div class="col-sm-4"></div>
-        <h2 class="col-sm-4 bottom-buffer text-center">Stocks Portfolio</h2>
-        <div class="col-sm-4 text-right">
-          <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6 dropdown">
-              <button class="btn btn-secondary dropdown-toggle text-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu</button> 
-              <div class="dropdown-menu bg bg-secondary" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item text-light" href="main.html">Home</a>
-                <a class="dropdown-item text-light" href="portfolio.html">Portfolio</a>
-              </div>
-            </div>
+      <nav class="nav navbar-expand-lg bg bg-dark nav-fill">
+        <div class="dropdown nav-item">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu</button> 
+          <div class="dropdown-menu bg bg-secondary text-center" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item text-light" href="main.html">Home</a>
+            <a class="dropdown-item text-light" href="portfolio.html">Portfolio</a>
+            <a class="dropdown-item text-light" href="about.html">About</a>
           </div>
         </div>
-      </div>
+        <h2 class="tstfade nav-item">Portfolio</h2>
+        <form>
+          <input type="text">
+          <button class="btn btn-secondary">Search</button>
+        </form>
+      </nav>
       <table class="table table-hover table-striped table-dark text-light">
         <thead>
           <tr>
-            <th><input type="checkbox"></th>
+            <th><button class="trash" type="checkbox">del</button>
             <th scope="col">Symbol</th>
             <th scope="col">Last Price</th>
             <th scope="col">Change</th>
@@ -42,7 +42,7 @@
         </thead>
         <tbody>
           <tr>
-            <th><input type="checkbox"></th>
+            <th><input type="checkbox" checked></th>
             <th scope="row">S</th>
             <td>4.93</td>
             <td class="green-text">+0.09</td>
@@ -199,7 +199,7 @@
           </tr>
         </tbody>
       </table>
-      <p class="col-12 text-center pull-bottom border border-light border-left-0 border-right-0 border-bottom-0">Designed by <a href="github.com/glafrange">Gabriel Lafrange</a></p>
+      <p class="col-12 text-center pull-bottom border border-light border-left-0 border-right-0 border-bottom-0">Designed by <a href="https://github.com/glafrange">Gabriel Lafrange</a></p>
     </div>
   </body>
 </html>

@@ -7,23 +7,22 @@
     <link href="styles/styles.css" rel="stylesheet">
   </head>
   
-  <body class="bg bg-dark">
+  <body class="bg bg-light">
     <div class="container">
-      <div class="nav navbar">
-        <div class="col-sm-4"></div>
-        <h2 class="col-sm-4 text-center bottom-buffer text-light">Yahoo finance page</h2>
-        <div class="col-sm-4 pull-right">
-          <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6 dropdown">
-              <button class="btn btn-secondary dropdown-toggle text-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu</button>
-              <div class="dropdown-menu bg bg-secondary" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item text-light" href="main.html">Home</a>
-                <a class="dropdown-item text-light" href="portfolio.html">Portfolio</a>
-              </div>
-            </div>
+      <div class="nav navbar-expand-lg nav-fill bg bg-dark">
+        <div class="nav-item dropdown">
+          <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu</button>
+          <div class="dropdown-menu bg bg-secondary" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item text-light" href="main.html">Home</a>
+            <a class="dropdown-item text-light" href="portfolio.html">Portfolio</a>
+            <a class="dropdown-item text-light" href="about.html">About</a>
           </div>
         </div>
+        <h2 class="nav-item">Yahoo finance page</h2>
+        <form>
+          <input type="text" class="nav-item">
+          <button class="btn btn-secondary">Search</button>
+        </form>
       </div>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -71,7 +70,7 @@
           <td>-</td>
         </tbody>
       </table>
-      <p class="col-12 text-center pull-bottom border border-light border-left-0 border-right-0 border-bottom-0">Designed by <a class="text-light" href="https://github.com/glafrange">Gabriel Lafrange</a></p>
+      <p class="col-12 text-center text-dark fixed-bottom border border-dark border-left-0 border-right-0 border-bottom-0">Designed by <a class="text-dark" href="https://github.com/glafrange">Gabriel Lafrange</a></p>
     </div>
   </body>
 </html>
