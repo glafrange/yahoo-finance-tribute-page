@@ -6,15 +6,17 @@
     <link href="styles/css/bootstrap.css" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
   </head>
-  
+
   <body class="bg bg-light">
     <div class="container">
+      <!--nav row bg bg-dark has width 720 vs images and table of 690 PEER REVIEW -->
       <div class="bg bg-dark row">
         <ul class="col-sm-4 dropdown">
           <li class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu</li>
           <li class="dropdown-menu bg bg-secondary" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item text-light" href="main.html">Home</a>
             <a class="dropdown-item text-light" href="portfolio.html">Portfolio</a>
+            <!--make href="#" until "about.html" is created so it's just a link to nowhere rather than going to a non-existent page PEER REVIEW -->
             <a class="dropdown-item text-light" href="about.html">About</a>
           </li>
         </ul>
@@ -24,6 +26,8 @@
           <button class="btn btn-secondary">Search</button>
         </form>
       </div>
+      <!--nice slide! not sure how these are implemented but it doesn't seem to change to another image / or quickly enough?   PEER REVIEW -->
+      <!--oh i now see it change, takes a while though! but that is totally cool/fine   PEER REVIEW -->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
@@ -32,6 +36,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <!--one image source is broken  PEER REVIEW -->
             <img class="d-block w-100" src="https://criticalfinancial.com/wp-content/uploads/2017/05/Finance.jpg" alt="First slide">
           </div>
           <div class="carousel-item">
@@ -70,6 +75,7 @@
           <td>-</td>
         </tbody>
       </table>
+      <!--add github icon after name so they know it's a link  PEER REVIEW -->
       <p class="col-12 text-center text-dark fixed-bottom border border-dark border-left-0 border-right-0 border-bottom-0">Designed by <a class="text-dark" href="https://github.com/glafrange">Gabriel Lafrange</a></p>
     </div>
   </body>
